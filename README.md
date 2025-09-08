@@ -1,6 +1,6 @@
 
 ## 🔗 Live Demo
-👉 [Live demo ](https://tubular-snickerdoodle.netlify.app/)
+👉 [Live demo ](https://68be9eb625c857d177dd7eb1--tubular-snickerdoodle-c6b99b.netlify.app/)
 
 A user-friendly **URL Shortener Application** built with **React.js**, designed to shorten long URLs, provide analytics, and handle redirection — all within the client-side application.
 
