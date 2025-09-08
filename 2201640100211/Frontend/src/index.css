@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: #0f0c29;
+  background: linear-gradient(135deg, #24243e, #302b63, #0f0c29);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  z-index: 1000;
+}
+
+.navbar-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.author {
+  color: #ff79c6;
+}
+
+.container {
+  margin-top: 80px;
+  padding: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 6px;
+}
+
+.button {
+  padding: 10px 14px;
+  margin: 4px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #6a5acd;
+  color: white;
+  transition: 0.3s;
+}
+.button:hover {
+  background: #836fff;
+}
+.button.secondary {
+  background: #444;
+}
+.button.small {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+.button.danger {
+  background: #d9534f;
+}
+.error {
+  color: #ff4d6d;
+  margin-top: 6px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+.link {
+  color: #61dafb;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+/* DNA animation background */
+.dna-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 0,
+    rgba(255, 255, 255, 0.05) 2px,
+    transparent 2px,
+    transparent 40px
+  );
+  animation: moveBg 8s linear infinite;
+  z-index: 0;
+}
+@keyframes moveBg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px 40px;
+  }
+}
