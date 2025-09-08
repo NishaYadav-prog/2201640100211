@@ -1,12 +1,8 @@
-# 🔗 React URL Shortener Web App
+
 ## 🔗 Live Demo
-👉 [React URL Shortener Live](https://tubular-snickerdoodle.netlify.app/)
+👉 [Live demo ](https://tubular-snickerdoodle.netlify.app/)
 
 A user-friendly **URL Shortener Application** built with **React.js**, designed to shorten long URLs, provide analytics, and handle redirection — all within the client-side application.
-
-![URL Shortener Screenshot](https://github.com/user-attachments/assets/your-image-id.png)
-
----
 
 ## 🚀 Features
 
